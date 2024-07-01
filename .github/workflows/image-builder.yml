@@ -10,7 +10,7 @@ jobs:
         uses: hashicorp/vault-action@v2
         with:
           url: https://vault-public-vault-8c8cf61e.cb768b32.z1.hashicorp.cloud:8200 
-          tlsSkipVerify: false
+          tlsSkipVerify: true
 	  namespace: admin
           token: ${{ secrets.VAULT_TOKEN }}
           secrets: |
