@@ -5,7 +5,7 @@ Actions](https://developer.hashicorp.com/vault/tutorials/app-integration/github-
 
 ## Docker image
 
-Create a Docker image for the application and label it
+Create a Docker image for the application and label it 
 `vault-action-exampleapp`.
 
 ```shell
